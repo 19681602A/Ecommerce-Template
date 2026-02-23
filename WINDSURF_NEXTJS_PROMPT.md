@@ -1,4 +1,4 @@
-# Windsurf Cascade Prompt: Spensit E-Commerce Template (Next.js 15 / React 19)
+# Windsurf Cascade Prompt for You to run if you would like to build a new project from scratch instead of using the Spensit Framework:
 
 Paste this entire file as your first message to Windsurf Cascade in a new, empty project folder.
 The Spensit API reference documentation is attached alongside this prompt - refer to it for all
